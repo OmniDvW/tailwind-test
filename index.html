@@ -25,54 +25,89 @@
 </head>
 
 <body>
+  <div class="p-4">
+    <nav class="w-full h-16 flex justify-between items-center">
+      <div class="w-16 h-16 flex justify-start items-center">
+        <img src="./assets/images/logo.svg" alt="logo">
+      </div>
+      <button id="open-btn" class="w-10 h-10 flex justify-end items-center cursor-pointer md:hidden">
+        <img src="./assets/images/icon-menu.svg" alt="">
+      </button>
+    </nav>
+    <div id="toggled-background" class="h-full w-full bg-off-black absolute top-0 left-0 z-10 opacity-70 hidden"></div>
+    <div id="toggled-menu"
+      class="p-4 h-full fixed top-0 left-full w-3/5 z-20 bg-off-white translate-x-0 transition-transform duration-300 ease-in-out">
+      <div class="h-16 flex justify-end items-center">
+        <button id="close-btn" class="w-10 h-10 flex justify-end items-center cursor-pointer">
+          <img src="./assets/images/icon-menu-close.svg" alt="">
+        </button>
+      </div>
+      <ul id="menu-links" class="py-4">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </div>
 
-  <div class="bg-midnight text-soft-orange">
-    <h2>hello</h2>
+    <section class="pb-10">
+      <div class="py-4">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="">
+      </div>
+      <h1 class="font-extrabold text-5xl py-4">The Bright Future of Web 3.0?</h1>
+      <div>
+        <p class="py-1.5 opacity-50"> We dive into the next evolution of the web that claims to put the power of the
+          platforms back into the hands of the people.
+          But is it really fulfilling its promise?
+        </p>
+
+        <button class="bg-soft-red text-off-white">
+          READ MORE
+        </button>
+      </div>
+    </section>
+
+    <section class="pb-10">
+      <h1>New</h1>
+      <div>
+        <h2>Hydrogen VS Electric Cars</h2>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </div>
+      <div>
+        <h2>The Downsides of AI Artistry</h2>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </div>
+      <div>
+        <h2>Is VC Funding Drying Up?</h2>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </div>
+    </section>
+
+    <section>
+      <div> 01
+        Reviving Retro PCs
+        What happens when old PCs are given modern upgrades?</div>
+      <div>
+        02
+        Top 10 Laptops of 2022
+        Our best picks for various needs and budgets.
+      </div>
+      <div>
+        03
+        The Growth of Gaming
+        How the pandemic has sparked fresh opportunities.</div>
+    </section>
   </div>
 
-  <h1 class="text-grayish-blue">hello</h1>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
-  people.
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">OmniDvW</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

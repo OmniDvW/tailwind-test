@@ -10,6 +10,8 @@ module.exports = {
       'grayish-blue': 'hsl(233, 8%, 79%)',
       'dark-grayish-blue': 'hsl(236, 13%, 42%)',
       'very-dark-blue': 'hsl(240, 100%, 5%)',
+      'off-red': '#FF0000',
+      'off-black': '#000000',
     },
     extend: {
       fontFamily: {
