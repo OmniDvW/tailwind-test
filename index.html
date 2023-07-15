@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="dist/output.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -21,7 +21,7 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-  </style>
+  </style> -->
 </head>
 
 <body>
@@ -38,16 +38,16 @@
     <div id="toggled-menu"
       class="p-4 h-full fixed top-0 left-full w-3/5 z-20 bg-off-white translate-x-0 transition-transform duration-300 ease-in-out">
       <div class="h-16 flex justify-end items-center">
-        <button id="close-btn" class="w-10 h-10 flex justify-end items-center cursor-pointer">
+        <button id="close-btn" class="w-10 h-10 flex justify-center items-center cursor-pointer">
           <img src="./assets/images/icon-menu-close.svg" alt="">
         </button>
       </div>
-      <ul id="menu-links" class="py-4">
-        <li>Home</li>
-        <li>New</li>
-        <li>Popular</li>
-        <li>Trending</li>
-        <li>Categories</li>
+      <ul id="menu-links" class="py-10">
+        <li class="pb-4 text-lg"><a href="#">Home</a></li>
+        <li class="pb-4 text-lg"><a href="#">New</a></li>
+        <li class="pb-4 text-lg"><a href="#">Popular</a></li>
+        <li class="pb-4 text-lg"><a href="#">Trending</a></li>
+        <li class="text-lg"><a href="#">Categories</a></li>
       </ul>
     </div>
 
@@ -57,30 +57,31 @@
       </div>
       <h1 class="font-extrabold text-5xl py-4">The Bright Future of Web 3.0?</h1>
       <div>
-        <p class="py-1.5 opacity-50"> We dive into the next evolution of the web that claims to put the power of the
+        <p class="py-1.5 opacity-70"> We dive into the next evolution of the web that claims to put the power of the
           platforms back into the hands of the people.
           But is it really fulfilling its promise?
         </p>
 
-        <button class="bg-soft-red text-off-white">
+        <button class="bg-soft-red text-off-white py-3 px-6 font-bold tracking-[0.3em] my-4">
           READ MORE
         </button>
       </div>
     </section>
 
-    <section class="pb-10">
-      <h1>New</h1>
-      <div>
-        <h2>Hydrogen VS Electric Cars</h2>
-        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+    <section class="p-4 bg-very-dark-blue mb-10">
+      <h1 class="text-soft-orange text-4xl font-bold mb-8">New</h1>
+      <div class="text-off-white border-b border-opacity-50 border-grayish-blue pb-6 mb-6">
+        <h2 class="font-bold text-xl mb-2">Hydrogen VS Electric Cars</h2>
+        <p class="font-light opacity-80">Will hydrogen-fueled cars ever catch up to EVs?</p>
       </div>
-      <div>
-        <h2>The Downsides of AI Artistry</h2>
-        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      <div class="text-off-white border-b border-opacity-50 border-grayish-blue pb-6 mb-6">
+        <h2 class="font-bold text-xl mb-2">The Downsides of AI Artistry</h2>
+        <p class="font-light opacity-80">What are the possible adverse effects of on-demand AI image generation?</p>
       </div>
-      <div>
-        <h2>Is VC Funding Drying Up?</h2>
-        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      <div class="text-off-white">
+        <h2 class="font-bold text-xl mb-2">Is VC Funding Drying Up?</h2>
+        <p class="font-light opacity-80">Private funding by VC firms is down 50% YOY. We take a look at what that means.
+        </p>
       </div>
     </section>
 
@@ -102,10 +103,10 @@
 
 
 
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">OmniDvW</a>.
-  </div>
+  </div> -->
 
   <script src="script.js"></script>
 </body>

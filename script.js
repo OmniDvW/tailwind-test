@@ -8,9 +8,11 @@ const menuLinks = document.querySelector("#menu-links");
 
 toggleOpenBtn.addEventListener("click", toggleNav);
 toggleCloseBtn.addEventListener("click", toggleNav);
+toggledBackground.addEventListener("click", toggleNav);
+menuLinks.addEventListener("click", toggleNav);
+
 
 function toggleNav() {
     toggledMenu.classList.toggle("-translate-x-full");
     toggledBackground.classList.toggle("hidden");
-    console.log("hello")
 }
